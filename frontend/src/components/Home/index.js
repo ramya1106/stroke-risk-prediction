@@ -129,7 +129,7 @@ const featureRules = [
   },
   {
     id: "ca",
-    title: "Major Vessels Count",
+    title: "Major Vessels",
     imageUrl:
       "https://res.cloudinary.com/dn9sdbv1o/image/upload/v1757441011/blood-vessel_4939164_ateeyd.png",
     statusMap: {
