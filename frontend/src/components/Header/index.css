@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #1E3A8A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f8f7f7;
+}
+
+.header-logo{
+    height: 72px;
+    width: auto;
+    margin: 0px;
+}
+
+.nav-menu{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-item{
+    font-size: 16px;
+    color: #f8f7f7;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.nav-item:hover{
+    text-decoration: underline; 
+    text-underline-offset: 3px;
+}
