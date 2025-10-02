@@ -34,7 +34,7 @@ const featureRules = [
   },
   {
     id: "cp",
-    title: "Chest Pain Type",
+    title: "Chest Pain (Angina) Type",
     imageUrl:
       "https://res.cloudinary.com/dn9sdbv1o/image/upload/v1757271701/chest-pain_3954108_hjb5aa.png",
     statusMap: {
