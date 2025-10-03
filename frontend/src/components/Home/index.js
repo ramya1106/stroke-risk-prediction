@@ -654,7 +654,7 @@ function Home() {
               className="initial-state-img"
             />
             <p className="initial-state-text">
-              Complete the form to view your prediction. <br/>
+              Complete the form to view your prediction. <br/><br/>
               Waking up the server… this may take up to 2 minutes the first time. Thanks for your patience!
             </p>
           </div>

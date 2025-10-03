@@ -222,12 +222,13 @@
 }
 
 .initial-state-img {
-  width: 70%;
+  width: 60%;
 }
 
 .initial-state-text {
   color: #111827;
   font-size: 18px;
+  text-align: center;
 }
 
 @media (max-width: 768px){
