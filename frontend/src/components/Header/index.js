@@ -2,7 +2,13 @@ import "./index.css";
 
 import { Link } from "react-router-dom";
 
+import { use, useState } from "react";
+
+import { IoMdMenu } from "react-icons/io";
+
 function Header() {
+  const [showMenu, changeShowMenu] = useState(false);
+  let status = showMenu ? "show" : "hide";
   return (
     <nav className="navbar">
       <img
@@ -10,7 +16,9 @@ function Header() {
         alt="Logo"
         className="header-logo"
       />
-      <ul className="nav-menu">
+      <IoMdMenu className="nav-menu-sm" onClick={() => changeShowMenu(!showMenu)} />
+      
+      <ul className={`nav-menu ${status}`}>
         <Link className="link" to="/">
           <li className="nav-item">Home</li>
         </Link>
